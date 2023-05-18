@@ -1,6 +1,6 @@
 import random
 
-palavras = ["camaro", "mustang", "camaro", "opala", "lancer", "bmw", "celta", "uno", "gol", "porche" , "palio" , "civic" , "city", "gtr", "chevrolet" , "audi" , "nissan"]
+palavras = ["camaro", "mustang" , "opala", "lancer", "bmw", "celta", "uno", "gol", "porche" , "palio" , "civic" , "city", "gtr", "chevrolet" , "audi" , "nissan"]
 palavra = random.choice(palavras)
 chances = 10
 atualmente = ['_'] * len(palavra)
